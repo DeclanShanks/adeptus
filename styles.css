@@ -3,20 +3,19 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: url('A_grimdark_technology-themed_background_image,_fea.png') no-repeat center center fixed;
-    background-size: cover; /* Adjust this to fit your needs */
+    background: url('Grimdark.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff; /* Text color */
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: rgba(53, 66, 74, 0.8); /* Semi-transparent background */
     padding: 20px 0;
     text-align: center;
 }
 
 nav ul {
-    background: #35424a;
-    color: #ffffff;
+    background: rgba(53, 66, 74, 0.8);
     padding: 10px 0;
     list-style: none;
     text-align: center;
@@ -30,19 +29,34 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-section {
+nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+.context-box {
+    background: rgba(53, 66, 74, 0.7); /* Slightly transparent boxes */
     padding: 20px;
-    margin: 20px;
-    background: #ffffff;
-    border-radius: 5px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px; /* Max width for content */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #ffd700; /* Gold color for headings */
+}
+
+ul {
+    padding-left: 20px;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: #35424a;
+    background: rgba(53, 66, 74, 0.8);
     color: #ffffff;
     position: relative;
     bottom: 0;
