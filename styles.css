@@ -3,7 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: url('A_grimdark_technology-themed_background_image,_fea.png') no-repeat center center fixed;
+    background-size: cover; /* Adjust this to fit your needs */
 }
 
 header {
